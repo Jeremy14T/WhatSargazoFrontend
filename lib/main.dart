@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsargazo/screens/onboding/onboding_screen.dart';
 import 'package:whatsargazo/screens/screens.dart';
 import 'package:whatsargazo/utils/app_styles.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         
         primaryColor: primary,
       ),
-      home: const BottomBar()
+      home: const OnboardingScreen()
     );
   }
 }
